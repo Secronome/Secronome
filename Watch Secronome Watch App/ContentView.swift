@@ -7,7 +7,6 @@
 
 import SwiftUI
 import WatchKit
-//import AudioToolbox
 
 struct ContentView: View {
     @State var timerHandler: Timer?
@@ -53,13 +52,11 @@ struct ContentView: View {
                     }
                     // Right button
                     Button {
+                        // Reset time
                         tickCount = 0
                         progressValue = 1.0
-                        if CFBundleCopyResourceURL(CFBundleGetMainBundle(), nil, nil, nil) != nil {
-                            // AudioServicesCreateSystemSoundID(soundUrl, &soundIdReset)
-                            // AudioServicesPlaySystemSound(soundIdReset)
-                        }
-                        
+                        // feed back
+                        WKInterfaceDevice.current().play(.stop)
                     } label: {
                         Text("R")
                             .font(.title)

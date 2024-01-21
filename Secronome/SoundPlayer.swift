@@ -11,7 +11,6 @@ import AVFoundation
 class SoundPlayer: NSObject {
     let tickSoundData = NSDataAsset(name: "S04_Ka")!.data
     let tackSoundData = NSDataAsset(name: "B32_Pachi")!.data
-    //let midSoundData = NSDataAsset(name: "B32_Pachi")!.data
     let midSoundData = NSDataAsset(name: "B07_Casha")!.data
     
     var tickSoundPlayer: AVAudioPlayer!
