@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0711B32984E67B002AFEC8 /* SecronomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0711B22984E67B002AFEC8 /* SecronomeApp.swift */; };
+		6B0711B52984E67B002AFEC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0711B42984E67B002AFEC8 /* ContentView.swift */; };
+		6B0711B72984E67B002AFEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0711B62984E67B002AFEC8 /* Assets.xcassets */; };
+		6B0711BA2984E67B002AFEC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0711B92984E67B002AFEC8 /* Preview Assets.xcassets */; };
+		6B0711C12984E7D2002AFEC8 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0711C02984E7D2002AFEC8 /* SettingView.swift */; };
+		6B9C90E02ADD312A00AEDB3A /* Watch_SecronomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C90DF2ADD312A00AEDB3A /* Watch_SecronomeApp.swift */; };
+		6B9C90E22ADD312A00AEDB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C90E12ADD312A00AEDB3A /* ContentView.swift */; };
+		6B9C90E42ADD312B00AEDB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9C90E32ADD312B00AEDB3A /* Assets.xcassets */; };
+		6B9C90E72ADD312B00AEDB3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9C90E62ADD312B00AEDB3A /* Preview Assets.xcassets */; };
+		6B9C90EA2ADD312B00AEDB3A /* Secronome.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6B9C90DD2ADD312A00AEDB3A /* Secronome.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6BE172912AE4F261008910FD /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE172902AE4F261008910FD /* SoundPlayer.swift */; };
+		6BED7EC129A589BD0072A9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BED7EC029A589BD0072A9F9 /* AppDelegate.swift */; };
+		6BF584982998C7F50026628F /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF584972998C7F50026628F /* SoundPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B9C90E82ADD312B00AEDB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B0711A72984E67B002AFEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9C90DC2ADD312A00AEDB3A;
+			remoteInfo = "Watch Secronome Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B9C90EB2ADD312B00AEDB3A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6B9C90EA2ADD312B00AEDB3A /* Secronome.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B0711AF2984E67B002AFEC8 /* Secronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0711B22984E67B002AFEC8 /* SecronomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecronomeApp.swift; sourceTree = "<group>"; };
+		6B0711B42984E67B002AFEC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B0711B62984E67B002AFEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B0711B92984E67B002AFEC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B0711C02984E7D2002AFEC8 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		6B3167912B1B09E500285E44 /* Watch Secronome Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Watch Secronome Watch App.entitlements"; sourceTree = "<group>"; };
+		6B9C90DD2ADD312A00AEDB3A /* Secronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9C90DF2ADD312A00AEDB3A /* Watch_SecronomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch_SecronomeApp.swift; sourceTree = "<group>"; };
+		6B9C90E12ADD312A00AEDB3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6B9C90E32ADD312B00AEDB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B9C90E62ADD312B00AEDB3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BB7525829A410D100474E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6BE172902AE4F261008910FD /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		6BED7EC029A589BD0072A9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BF584972998C7F50026628F /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B0711AC2984E67B002AFEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9C90DA2ADD312A00AEDB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B0711A62984E67B002AFEC8 = {
+			isa = PBXGroup;
+			children = (
+				6B0711B12984E67B002AFEC8 /* Secronome */,
+				6B9C90DE2ADD312A00AEDB3A /* Watch Secronome Watch App */,
+				6B0711B02984E67B002AFEC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B0711B02984E67B002AFEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B0711AF2984E67B002AFEC8 /* Secronome.app */,
+				6B9C90DD2ADD312A00AEDB3A /* Secronome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0711B12984E67B002AFEC8 /* Secronome */ = {
+			isa = PBXGroup;
+			children = (
+				6BB7525829A410D100474E0B /* Info.plist */,
+				6B0711B22984E67B002AFEC8 /* SecronomeApp.swift */,
+				6BED7EC029A589BD0072A9F9 /* AppDelegate.swift */,
+				6BF584972998C7F50026628F /* SoundPlayer.swift */,
+				6B0711B42984E67B002AFEC8 /* ContentView.swift */,
+				6B0711C02984E7D2002AFEC8 /* SettingView.swift */,
+				6B0711B62984E67B002AFEC8 /* Assets.xcassets */,
+				6B0711B82984E67B002AFEC8 /* Preview Content */,
+			);
+			path = Secronome;
+			sourceTree = "<group>";
+		};
+		6B0711B82984E67B002AFEC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B0711B92984E67B002AFEC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B9C90DE2ADD312A00AEDB3A /* Watch Secronome Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				6B3167912B1B09E500285E44 /* Watch Secronome Watch App.entitlements */,
+				6B9C90DF2ADD312A00AEDB3A /* Watch_SecronomeApp.swift */,
+				6B9C90E12ADD312A00AEDB3A /* ContentView.swift */,
+				6BE172902AE4F261008910FD /* SoundPlayer.swift */,
+				6B9C90E32ADD312B00AEDB3A /* Assets.xcassets */,
+				6B9C90E52ADD312B00AEDB3A /* Preview Content */,
+			);
+			path = "Watch Secronome Watch App";
+			sourceTree = "<group>";
+		};
+		6B9C90E52ADD312B00AEDB3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B9C90E62ADD312B00AEDB3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B0711AE2984E67B002AFEC8 /* Secronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0711BD2984E67B002AFEC8 /* Build configuration list for PBXNativeTarget "Secronome" */;
+			buildPhases = (
+				6B0711AB2984E67B002AFEC8 /* Sources */,
+				6B0711AC2984E67B002AFEC8 /* Frameworks */,
+				6B0711AD2984E67B002AFEC8 /* Resources */,
+				6B9C90EB2ADD312B00AEDB3A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B9C90E92ADD312B00AEDB3A /* PBXTargetDependency */,
+			);
+			name = Secronome;
+			productName = Secronome;
+			productReference = 6B0711AF2984E67B002AFEC8 /* Secronome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B9C90DC2ADD312A00AEDB3A /* Watch Secronome Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9C90EE2ADD312B00AEDB3A /* Build configuration list for PBXNativeTarget "Watch Secronome Watch App" */;
+			buildPhases = (
+				6B9C90D92ADD312A00AEDB3A /* Sources */,
+				6B9C90DA2ADD312A00AEDB3A /* Frameworks */,
+				6B9C90DB2ADD312A00AEDB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Secronome Watch App";
+			productName = "Watch Secronome Watch App";
+			productReference = 6B9C90DD2ADD312A00AEDB3A /* Secronome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B0711A72984E67B002AFEC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6B0711AE2984E67B002AFEC8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6B9C90DC2ADD312A00AEDB3A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6B0711AA2984E67B002AFEC8 /* Build configuration list for PBXProject "Secronome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B0711A62984E67B002AFEC8;
+			productRefGroup = 6B0711B02984E67B002AFEC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B0711AE2984E67B002AFEC8 /* Secronome */,
+				6B9C90DC2ADD312A00AEDB3A /* Watch Secronome Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B0711AD2984E67B002AFEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0711BA2984E67B002AFEC8 /* Preview Assets.xcassets in Resources */,
+				6B0711B72984E67B002AFEC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9C90DB2ADD312A00AEDB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9C90E72ADD312B00AEDB3A /* Preview Assets.xcassets in Resources */,
+				6B9C90E42ADD312B00AEDB3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B0711AB2984E67B002AFEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0711C12984E7D2002AFEC8 /* SettingView.swift in Sources */,
+				6B0711B52984E67B002AFEC8 /* ContentView.swift in Sources */,
+				6BF584982998C7F50026628F /* SoundPlayer.swift in Sources */,
+				6BED7EC129A589BD0072A9F9 /* AppDelegate.swift in Sources */,
+				6B0711B32984E67B002AFEC8 /* SecronomeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9C90D92ADD312A00AEDB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9C90E22ADD312A00AEDB3A /* ContentView.swift in Sources */,
+				6BE172912AE4F261008910FD /* SoundPlayer.swift in Sources */,
+				6B9C90E02ADD312A00AEDB3A /* Watch_SecronomeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B9C90E92ADD312B00AEDB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B9C90DC2ADD312A00AEDB3A /* Watch Secronome Watch App */;
+			targetProxy = 6B9C90E82ADD312B00AEDB3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B0711BB2984E67B002AFEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B0711BC2984E67B002AFEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B0711BE2984E67B002AFEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_ASSET_PATHS = "\"Secronome/Preview Content\"";
+				DEVELOPMENT_TEAM = TF65UBXLTL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Secronome/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimuraoffice365.Secronome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B0711BF2984E67B002AFEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_ASSET_PATHS = "\"Secronome/Preview Content\"";
+				DEVELOPMENT_TEAM = TF65UBXLTL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Secronome/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimuraoffice365.Secronome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B9C90EC2ADD312B00AEDB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Watch Secronome Watch App/Watch Secronome Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Secronome Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TF65UBXLTL;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.kimuraoffice365.Secronome;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimuraoffice365.Secronome.watchkitapp;
+				PRODUCT_NAME = Secronome;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6B9C90ED2ADD312B00AEDB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Watch Secronome Watch App/Watch Secronome Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Secronome Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TF65UBXLTL;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.kimuraoffice365.Secronome;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimuraoffice365.Secronome.watchkitapp;
+				PRODUCT_NAME = Secronome;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B0711AA2984E67B002AFEC8 /* Build configuration list for PBXProject "Secronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0711BB2984E67B002AFEC8 /* Debug */,
+				6B0711BC2984E67B002AFEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0711BD2984E67B002AFEC8 /* Build configuration list for PBXNativeTarget "Secronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0711BE2984E67B002AFEC8 /* Debug */,
+				6B0711BF2984E67B002AFEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9C90EE2ADD312B00AEDB3A /* Build configuration list for PBXNativeTarget "Watch Secronome Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9C90EC2ADD312B00AEDB3A /* Debug */,
+				6B9C90ED2ADD312B00AEDB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B0711A72984E67B002AFEC8 /* Project object */;
+}
