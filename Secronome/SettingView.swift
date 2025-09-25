@@ -15,7 +15,7 @@ struct SettingView: View {
         ZStack {
             Color("backgroundSetting")
                 .ignoresSafeArea()
-            
+            // Setting values
             VStack {
                 // Setting Tack Times
                 HStack {

@@ -17,6 +17,7 @@
 		6B9C90E42ADD312B00AEDB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9C90E32ADD312B00AEDB3A /* Assets.xcassets */; };
 		6B9C90E72ADD312B00AEDB3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9C90E62ADD312B00AEDB3A /* Preview Assets.xcassets */; };
 		6B9C90EA2ADD312B00AEDB3A /* Secronome.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6B9C90DD2ADD312A00AEDB3A /* Secronome.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6BB4343A2E72F8750039D515 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB434392E72F8610039D515 /* ExtensionDelegate.swift */; };
 		6BE172912AE4F261008910FD /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE172902AE4F261008910FD /* SoundPlayer.swift */; };
 		6BED7EC129A589BD0072A9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BED7EC029A589BD0072A9F9 /* AppDelegate.swift */; };
 		6BF584982998C7F50026628F /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF584972998C7F50026628F /* SoundPlayer.swift */; };
@@ -59,7 +60,9 @@
 		6B9C90E12ADD312A00AEDB3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		6B9C90E32ADD312B00AEDB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B9C90E62ADD312B00AEDB3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BB434392E72F8610039D515 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		6BB7525829A410D100474E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6BD8F5A02E856C1800F4A60A /* Watch-Secronome-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Watch-Secronome-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		6BE172902AE4F261008910FD /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		6BED7EC029A589BD0072A9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BF584972998C7F50026628F /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
@@ -127,10 +130,12 @@
 		6B9C90DE2ADD312A00AEDB3A /* Watch Secronome Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				6BD8F5A02E856C1800F4A60A /* Watch-Secronome-Watch-App-Info.plist */,
 				6B3167912B1B09E500285E44 /* Watch Secronome Watch App.entitlements */,
 				6B9C90DF2ADD312A00AEDB3A /* Watch_SecronomeApp.swift */,
 				6B9C90E12ADD312A00AEDB3A /* ContentView.swift */,
 				6BE172902AE4F261008910FD /* SoundPlayer.swift */,
+				6BB434392E72F8610039D515 /* ExtensionDelegate.swift */,
 				6B9C90E32ADD312B00AEDB3A /* Assets.xcassets */,
 				6B9C90E52ADD312B00AEDB3A /* Preview Content */,
 			);
@@ -261,6 +266,7 @@
 			files = (
 				6B9C90E22ADD312A00AEDB3A /* ContentView.swift in Sources */,
 				6BE172912AE4F261008910FD /* SoundPlayer.swift in Sources */,
+				6BB4343A2E72F8750039D515 /* ExtensionDelegate.swift in Sources */,
 				6B9C90E02ADD312A00AEDB3A /* Watch_SecronomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.1;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_ASSET_PATHS = "\"Secronome/Preview Content\"";
 				DEVELOPMENT_TEAM = TF65UBXLTL;
 				ENABLE_PREVIEWS = YES;
@@ -413,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kimuraoffice365.Secronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -429,7 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.1;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				DEVELOPMENT_ASSET_PATHS = "\"Secronome/Preview Content\"";
 				DEVELOPMENT_TEAM = TF65UBXLTL;
 				ENABLE_PREVIEWS = YES;
@@ -445,7 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kimuraoffice365.Secronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -462,13 +468,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Watch Secronome Watch App/Watch Secronome Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_ASSET_PATHS = "\"Watch Secronome Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = TF65UBXLTL;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Watch-Secronome-Watch-App-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.kimuraoffice365.Secronome;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +483,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kimuraoffice365.Secronome.watchkitapp;
 				PRODUCT_NAME = Secronome;
 				SDKROOT = watchos;
@@ -497,13 +504,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Watch Secronome Watch App/Watch Secronome Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_ASSET_PATHS = "\"Watch Secronome Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = TF65UBXLTL;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Watch-Secronome-Watch-App-Info.plist";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.kimuraoffice365.Secronome;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,7 +519,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kimuraoffice365.Secronome.watchkitapp;
 				PRODUCT_NAME = Secronome;
 				SDKROOT = watchos;
