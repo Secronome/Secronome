@@ -8,6 +8,7 @@
 import WatchKit
 import AVFoundation
 
+// Setting background player
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
     func applicationDidFinishLaunching() {
         do {
