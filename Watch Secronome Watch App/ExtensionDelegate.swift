@@ -1,9 +1,4 @@
-//
-//  ExtensionDelegate.swift
-//  Secronome
-//
-//  Created by 木村文彬 on 2025/09/11.
-//
+// Enable background playback
 
 import WatchKit
 import AVFoundation

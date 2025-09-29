@@ -1,9 +1,4 @@
-//
-//  SoundPlayer.swift
-//  Watch Secronome Watch App
-//
-//  Created by 木村文彬 on 2023/10/22.
-//
+// Sound player
 
 import AVFoundation
 import WatchKit

@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  Secronome
-//
-//  Created by 木村文彬 on 2023/02/22.
-//
+// Enable background playback
 import UIKit
 import AVFoundation
 

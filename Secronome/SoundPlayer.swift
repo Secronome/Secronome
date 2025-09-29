@@ -1,9 +1,4 @@
-//
-//  SoundPlayer.swift
-//  Secronome
-//
-//  Created by 木村文彬 on 2023/02/12.
-//
+// Sound player
 
 import UIKit
 import AVFoundation
