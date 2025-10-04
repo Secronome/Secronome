@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  Watch Secronome Watch App
-//
-//  Created by 木村文彬 on 2023/10/16.
-//
+// View of secronome
 
 import SwiftUI
 import WatchKit

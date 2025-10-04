@@ -1,9 +1,4 @@
-//
-//  SettingView.swift
-//  Secronome
-//
-//  Created by 木村文彬 on 2023/01/28.
-//
+// View of setting
 
 import SwiftUI
 
@@ -15,7 +10,7 @@ struct SettingView: View {
         ZStack {
             Color("backgroundSetting")
                 .ignoresSafeArea()
-            
+            // Setting values
             VStack {
                 // Setting Tack Times
                 HStack {

@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  Secronome
-//
-//  Created by 木村文彬 on 2023/01/28.
-//
+// View of Secronome
 
 import SwiftUI
 import AudioToolbox
@@ -35,9 +30,10 @@ struct ContentView: View {
                     Text ("Tack Count : \(tackCount)")
                         .font(.largeTitle)
                         .bold()
-                    Text(midFlg ? "Middle Sound : ON" : "Middle Sound : OFF")
+                    Text("Middle Sound : \(midFlg ? "ON" : "OFF")")
                         .font(.largeTitle)
                         .bold()
+                    // Start & Reset Button
                     HStack(spacing: 50.0) {
                         // Left button
                         Button {
