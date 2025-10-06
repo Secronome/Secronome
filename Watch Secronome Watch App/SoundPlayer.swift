@@ -4,17 +4,36 @@ import AVFoundation
 import WatchKit
 
 class SoundPlayer: NSObject {
-    var tickSoundPlayer: AVAudioPlayer?
-    var tackSoundPlayer: AVAudioPlayer?
-    var midSoundPlayer: AVAudioPlayer?
+    let tickSoundData = NSDataAsset(name: "S04_Ka")!.data
+    let tackSoundData = NSDataAsset(name: "B32_Pachi")!.data
+    let midSoundData = NSDataAsset(name: "B07_Casha")!.data
+    
+    var tickSoundPlayer: AVAudioPlayer!
+    var tackSoundPlayer: AVAudioPlayer!
+    var midSoundPlayer: AVAudioPlayer!
     
     func tickSoundPlay() {
-        WKInterfaceDevice.current().play(.start)
+        do {
+            tickSoundPlayer = try AVAudioPlayer(data: tickSoundData)
+            tickSoundPlayer.play()
+        } catch {
+            print("tickSound error occured!")
+        }
     }
     func tackSoundPlay() {
-        WKInterfaceDevice.current().play(.success)
+        do {
+            tackSoundPlayer = try AVAudioPlayer(data: tackSoundData)
+            tackSoundPlayer.play()
+        } catch {
+            print("tackSound error occured!")
+        }
     }
     func midSoundPlay() {
-        WKInterfaceDevice.current().play(.retry)
+        do {
+            midSoundPlayer = try AVAudioPlayer(data: midSoundData)
+            midSoundPlayer.play()
+        } catch {
+            print("tackSound error occured!")
+        }
     }
 }
